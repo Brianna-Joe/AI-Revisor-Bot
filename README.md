@@ -1,23 +1,23 @@
-# 🤖 SimpliDOTS Slack Bot
+# SimpliDOTS Slack Bot
 
 An intelligent Slack bot that provides AI-powered analysis and Q&A for SimpliDOTS release notes. Built with clean architecture principles and designed for production deployment.
 
-## 🎥 Demo Video
+## Demo Video
 
 [![SimpliDOTS Slack Bot Demo](https://img.youtube.com/vi/e_w4CGT-4aY/maxresdefault.jpg)](https://youtu.be/e_w4CGT-4aY)
 
-**[🎬 Watch the Demo Video](https://youtu.be/e_w4CGT-4aY)** - See the bot in action with live Slack commands and AI responses!
+**[Watch the Demo Video](https://youtu.be/e_w4CGT-4aY)** - See the bot in action with live Slack commands and AI responses!
 
-## ✨ Features
+## Features
 
-- 🔍 **AI-Powered Analysis**: Intelligent summaries and Q&A using DeepSeek API
-- 💬 **Slack Integration**: Full support for slash commands, @mentions, and DMs
-- 🕷️ **Automated Scraping**: Extracts detailed content from SimpliDOTS GitBook
-- ⚡ **Background Processing**: Handles long-running tasks without timeouts
-- 🏗️ **Clean Architecture**: Follows SOLID principles with dependency injection
-- 🚀 **Multiple Deployment Options**: HTTP Mode, Socket Mode, and cloud deployment
+- **AI-Powered Analysis**: Intelligent summaries and Q&A using DeepSeek API
+- **Slack Integration**: Full support for slash commands, @mentions, and DMs
+- **Automated Scraping**: Extracts detailed content from SimpliDOTS GitBook
+- **Background Processing**: Handles long-running tasks without timeouts
+- **Clean Architecture**: Follows SOLID principles with dependency injection
+- **Multiple Deployment Options**: HTTP Mode, Socket Mode, and cloud deployment
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone and Setup
 ```bash
@@ -63,7 +63,7 @@ python app.py
 python slack_bot.py
 ```
 
-## 🤖 Slack App Configuration
+## Slack App Configuration
 
 ### Step 1: Create Slack App
 1. Go to https://api.slack.com/apps
@@ -84,7 +84,7 @@ python slack_bot.py
   - `users:read`
 
 **Event Subscriptions:**
-- Enable Events: ✅
+- Enable Events: Yes
 - Request URL: `https://your-domain.com/slack/events`
 - Bot Events:
   - `app_mention`
@@ -105,7 +105,7 @@ python slack_bot.py
 2. Click "Install to Workspace"
 3. Copy the "Bot User OAuth Token" to your `.env` file
 
-## 🌐 Deployment Options
+## Deployment Options
 
 ### Option 1: Local Development (ngrok)
 ```bash
@@ -142,9 +142,9 @@ git push heroku main
 2. Set environment variables in dashboard
 3. Deploy automatically
 
-## 📱 Bot Usage
+## Bot Usage
 
-> 🎥 **Want to see it in action?** [Watch the demo video](https://youtu.be/e_w4CGT-4aY) to see all these commands working live!
+> **Want to see it in action?** [Watch the demo video](https://youtu.be/e_w4CGT-4aY) to see all these commands working live!
 
 ### Slash Commands
 ```
@@ -166,7 +166,7 @@ git push heroku main
 @SimpliDOTS Bot what are the new features?
 ```
 
-## 🛠️ Architecture Overview
+## Architecture Overview
 
 ```
 SimpliDOTS Slack Bot
@@ -187,7 +187,7 @@ SimpliDOTS Slack Bot
     └── README.md                 # This file
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -220,26 +220,26 @@ python slack_bot.py
 curl http://localhost:3000/health
 ```
 
-## 📊 Features
+## Features
 
-### ✅ Implemented
-- 🕷️ Web scraping of SimpliDOTS release notes
-- 🤖 AI-powered content analysis with DeepSeek
-- 💬 Slack slash commands and mentions
-- 🔄 Background data refresh
-- 📊 Interactive Q&A system
-- 🏗️ SOLID principle architecture
+### Implemented
+- Web scraping of SimpliDOTS release notes
+- AI-powered content analysis with DeepSeek
+- Slack slash commands and mentions
+- Background data refresh
+- Interactive Q&A system
+- SOLID principle architecture
 
-### 🔮 Future Enhancements
-- 📅 Scheduled automatic updates
-- 📈 Release trend analysis
-- 🎯 Custom notification preferences
-- 🔍 Advanced search capabilities
-- 📱 Interactive buttons and menus
+### Future Enhancements
+- Scheduled automatic updates
+- Release trend analysis
+- Custom notification preferences
+- Advanced search capabilities
+- Interactive buttons and menus
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 1. **Install dependencies:** `pip install -r requirements.txt`
 2. **Configure Slack app** following the guide above
@@ -247,4 +247,4 @@ curl http://localhost:3000/health
 4. **Deploy to your preferred platform**
 5. **Test all bot commands** in Slack
 
-Your SimpliDOTS Slack Bot is ready to provide AI-powered release note analysis! 🚀
+Your SimpliDOTS Slack Bot is ready to provide AI-powered release note analysis!
