@@ -1,0 +1,10 @@
+# Railway Configuration
+[build]
+builder = "nixpacks"
+
+[deploy]
+healthcheckPath = "/health"
+restartPolicyType = "on_failure"
+
+[variables]
+PORT = "3000"
